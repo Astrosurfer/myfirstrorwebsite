@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  #adapter: pg
+  #adapter: postgres
+  database: astr0ror_dev
+  username: postgres
+  password: mexico2010
+  host: localhost
+
+test:
+  adapter: postgresql
+  #adapter: pg
+  #adapter: postgres
+  database: astr0ror_test
+  username: postgres
+  password: mexico2010
+  host: localhost
+
+production:
+  adapter: postgresql
+  #adapter: pg
+  #adapter: postgres
+  database: astr0ror_pro
+  username: postgres
+  password: mexico2010
+  host: localhost
+
