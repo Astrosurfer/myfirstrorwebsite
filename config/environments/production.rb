@@ -47,6 +47,10 @@ Astr0ror::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 end
+
+ENV['S3_KEY']='AKIAJA5N7ZWCOC52T25Q'
+ENV['S3_SECRET']='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'
+ENV['S3_BUCKET']='astr0'
+
 Refinery.rescue_not_found = true
 Refinery.s3_backend = true
-
