@@ -1,9 +1,9 @@
+@import url('/stylesheets/refinery/application.css');
 /*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
+    Override default refinery application CSS below.
+    Formatting applies to all frontend.
 */
-
-#body{ 
+body {
     margin: 0px;
     padding: 0px;
 }

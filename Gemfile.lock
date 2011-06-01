@@ -150,8 +150,6 @@ GEM
       refinerycms-core (= 1.0.0)
     refinerycms-settings (1.0.0)
       refinerycms-base (= 1.0.0)
-    refinerycms-theming (1.0.1)
-      refinerycms-core (>= 0.9.9.15)
     routing-filter (0.2.3)
       actionpack
     ruby-hmac (0.4.0)
@@ -177,4 +175,3 @@ DEPENDENCIES
   refinerycms-blog (~> 1.5)
   refinerycms-i18n (~> 1.0.0)
   refinerycms-inquiries (~> 1.0)
-  refinerycms-theming (~> 1.0.1)
