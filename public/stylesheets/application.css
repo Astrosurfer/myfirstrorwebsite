@@ -4,11 +4,11 @@
 */
 
 #body{ 
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px;
 }
 #body_content {
-    margin-top: 36px;
+    margin-top: 0px;
 }
 #body_content_left {
     width: 574px;
@@ -22,7 +22,7 @@
 #page {
     width: 100%;
     padding: 0px;
-    margin: 0px;
+    margin: 20px;
 }
 #body, #header_content, #footer_content, #site_bar_content {
     width: 990px;
@@ -87,11 +87,11 @@
     left: auto;
 }
 #footer {
-    margin-top: 120px;
-    #background: url('/theme/images/footer_background.png') repeat-x;
+    margin-top: 0px;
+    background: url('/theme/images/footer_background.png') repeat-x;
 }
 #footer_content {
-    height: 103px;
+    height: 0px;
     padding-top: 94px;
     background: url('/images/refinery/logo.png') 0px 80px no-repeat;
     text-align: right;
