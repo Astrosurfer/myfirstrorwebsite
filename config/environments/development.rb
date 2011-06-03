@@ -1,4 +1,4 @@
-Astr0ror::Application.configure do
+str0ror::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -24,11 +24,8 @@ Astr0ror::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 end
 
-ENV['S3_KEY']='AKIAJA5N7ZWCOC52T25Q'
-ENV['S3_SECRET']='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'
-ENV['S3_BUCKET']='astr0'
-
 Refinery.rescue_not_found = false
+
 Refinery.s3_backend = false
 
 #Refinery.rescue_not_found = false # questa riga l'ho trovata
