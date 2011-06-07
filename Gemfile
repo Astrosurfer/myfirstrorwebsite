@@ -13,9 +13,10 @@ gem 'fog'
 
 #gem "refinerycms-theming", "~> 1.0.1"
 
-#gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
+gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
 
-gem 'refinerycms-memberships', '1.0', :git => 'git@github.com:ruby-fu-ninja/refinerycms_membership.git'
+#gem 'refinerycms-memberships', '1.0', :git => 'git@github.com:ruby-fu-ninja/refinerycms_membership.git'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'

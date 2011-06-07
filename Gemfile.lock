@@ -1,6 +1,5 @@
-GIT
-  remote: git@github.com:ruby-fu-ninja/refinerycms_membership.git
-  revision: 488035865dd765c6c0a82a52479459f2dcb21a35
+PATH
+  remote: vendor/engines
   specs:
     refinerycms-memberships (1.0)
 
