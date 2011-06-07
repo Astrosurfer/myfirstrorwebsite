@@ -1,3 +1,9 @@
+GIT
+  remote: git@github.com:ruby-fu-ninja/refinerycms_membership.git
+  revision: 488035865dd765c6c0a82a52479459f2dcb21a35
+  specs:
+    refinerycms-memberships (1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -175,3 +181,4 @@ DEPENDENCIES
   refinerycms-blog (~> 1.5)
   refinerycms-i18n (~> 1.0.0)
   refinerycms-inquiries (~> 1.0)
+  refinerycms-memberships (= 1.0)!

@@ -1,14 +1,13 @@
 /*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
+    Override default refinery application CSS below.
+    Formatting applies to all frontend.
 */
-
-#body{ 
-    margin: 10px;
-    padding: 10px;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 #body_content {
-    margin-top: 0px;
+    margin-top: 36px;
 }
 #body_content_left {
     width: 574px;
@@ -22,7 +21,7 @@
 #page {
     width: 100%;
     padding: 0px;
-    margin: 20px;
+    margin: 0px;
 }
 #body, #header_content, #footer_content, #site_bar_content {
     width: 990px;
@@ -87,11 +86,11 @@
     left: auto;
 }
 #footer {
-    margin-top: 0px;
-    background: url('/theme/images/footer_background.png') repeat-x;
+    margin-top: 120px;
+    #background: url('/theme/images/footer_background.png') repeat-x;
 }
 #footer_content {
-    height: 0px;
+    height: 103px;
     padding-top: 94px;
     background: url('/images/refinery/logo.png') 0px 80px no-repeat;
     text-align: right;
