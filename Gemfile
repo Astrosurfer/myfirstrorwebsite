@@ -11,9 +11,13 @@ gem 'pg'
 
 gem 'fog'
 
+gem 'jquery-rails'
+
 #gem "refinerycms-theming", "~> 1.0.1"
 
-gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
+#gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
+
+#gem 'refinerycms-membership', '1.0', :path => 'vendor/engines' questa linea e' solo una prova dubbio sulla s finale
 
 #gem 'refinerycms-memberships', '1.0', :git => 'git@github.com:ruby-fu-ninja/refinerycms_membership.git'
 
@@ -45,6 +49,8 @@ gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
 # Anything you put in here will be overridden when the app gets updated.
 
 gem 'refinerycms',              '~> 1.0.0'
+
+gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
 
 group :development, :test do
   # To use refinerycms-testing, uncomment it (if it's commented out) and run 'bundle install'
