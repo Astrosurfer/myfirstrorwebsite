@@ -1,6 +1,14 @@
+<table>
+<tr>
+<td>
+
 <section id='body_content'>
   <%=raw @page[:body] %>
 </section>
+</td>
+<td>
+<section id='twitter_list'>
+
 <script src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
@@ -32,3 +40,8 @@ new TWTR.Widget({
   }
 }).render().setUser('Astr0surfer').start();
 </script>
+
+</section>
+</td>
+</tr>
+</table>
