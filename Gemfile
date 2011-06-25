@@ -16,11 +16,11 @@ gem 'jquery-rails'
 #gem "refinerycms-theming", "~> 1.0.1"
 
 #gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
-<<<<<<< HEAD
+#<<<<<< HEAD ma non so come mai e' spuntata questa riga e l'ho commentata
 
 #gem 'refinerycms-membership', '1.0', :path => 'vendor/engines' questa linea e' solo una prova dubbio sulla s finale
-=======
->>>>>>> primobranch
+#======= non so cosa fa questa linea qui 
+#>>>>>>> primobranch non so cosa fa questa linea qui
 
 #gem 'refinerycms-memberships', '1.0', :git => 'git@github.com:ruby-fu-ninja/refinerycms_membership.git'
 
