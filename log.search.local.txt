@@ -1,0 +1,12 @@
+./log/development.log:    12:       # we have some default yields, body_content_left and body_content_right
+./themes/demolicious/stylesheets/application.css:#body_content_right {
+./themes/demolicious/stylesheets/application.css:#body_content_right img {
+./themes/demolicious/stylesheets/formatting.css:#body_content_left *, #body_content_right *, .page_part_body, .page_part_side_body {
+./themes/demolicious/stylesheets/formatting.css:#body_content_left p, #body_content_right p, .page_part_body p, .page_part_side_body p {
+./themes/hemingway/stylesheets/application.css:#body_content_right {
+./public/stylesheets/application.css:#body_content_right {
+./public/stylesheets/application.css:#body_content_right img {
+./app/views/shared/_content_page.html.erb:      # we have some default yields, body_content_left and body_content_right
+./app/views/shared/_content_page.html.erb:        when :side_body then :body_content_right
+./app/views/shared/_content_page.html.erb:    # Ensure that even without @page.parts we still have body_content_left and body_content_right
+./app/views/shared/_content_page.html.erb:    sections << {:yield => :body_content_right} unless all_yields.include?(:body_content_right)

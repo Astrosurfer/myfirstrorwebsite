@@ -1,0 +1,47 @@
+<table>
+<tr>
+<td>
+
+<section id='body_content'>
+  <%=raw @page[:body] %>
+</section>
+</td>
+<td>
+<section id='twitter_list'>
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#50c3e6',
+      color: '#1f1c1f'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#0a5b80'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('Astr0surfer').start();
+</script>
+
+</section>
+</td>
+</tr>
+</table>

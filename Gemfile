@@ -16,8 +16,11 @@ gem 'jquery-rails'
 #gem "refinerycms-theming", "~> 1.0.1"
 
 #gem 'refinerycms-memberships', '1.0', :path => 'vendor/engines'
+<<<<<<< HEAD
 
 #gem 'refinerycms-membership', '1.0', :path => 'vendor/engines' questa linea e' solo una prova dubbio sulla s finale
+=======
+>>>>>>> primobranch
 
 #gem 'refinerycms-memberships', '1.0', :git => 'git@github.com:ruby-fu-ninja/refinerycms_membership.git'
 
